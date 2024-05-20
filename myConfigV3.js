@@ -136,7 +136,7 @@ exports.config = {
                     //turn an image into a data URI string
                     const dataURI = await imageDataURI.encodeFromURL(step_result.screenshot);
                     //console.log(dataURI);
-                    await sleep(3000);
+                    await sleep(4000);
 
                     html += "<td style='text-align: center; font-weight: bold; padding-top: 10px; padding-bottom: 10px;'><a href='" + step_result.screenshot + "'><img style='width:150px;' src='" + dataURI + "'></a></td>\n";
                     html += "</tr>\n";
