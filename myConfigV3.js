@@ -49,10 +49,10 @@ const fileDir = "//Users//tomerli//TestimReports//"; // or "C:\\Temp\\TestimRepo
 const _TESTS = [];
 
 exports.config = {
-    grid:       "Testim-Grid",
-    project:    "8iuIg6jOYNgj5YnNs5RJ",
-    token:      "HFPMMWmDBgphmMFNcfS4oxVts7JPyZChVl1rYgGXBPs5pkKT8C",
-    branch:     "master",
+    grid:       <YOUR GRID>,
+    project:    <YOUR PROJECT>,
+    token:      <YOUR TOKEN>,
+    branch:     <YOUR BRANCH>,
     
     afterTest (test) {
         addResult(_TESTS, test.testId, test.resultId);
