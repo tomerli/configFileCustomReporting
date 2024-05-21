@@ -186,7 +186,7 @@ function extractResultId(url) {
 async function testim_fetch_result (resultId) {
 
     //console.log("resultId: " + resultId);
-    const api_key = "PAK-E8dkGBw4yC0qSW-KSkt8ldM5luVycc2I5NbnBovN543FD/R+8t7vt+/QAIAgX5WoCZyHTou2S7gtK6gte";
+    const api_key = "<YOUR API KEY>";
     const url     = "https://api.testim.io/runs/tests/" + resultId + "?stepsResults=true";
     
     return axios(url, {
